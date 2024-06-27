@@ -1,0 +1,124 @@
+body{
+    font-family:Roboto, sans-serif;
+}
+.container{
+   width: 100%;
+    margin: 50px auto;
+       display: block;
+    max-width: 1200px;
+}
+.list-product{
+	display:flex;
+}
+.product-wrapper{
+    border: 1px solid #956D84;
+    width:100%;
+    margin-right:15px;
+}
+.product-wrapper .wrap-img{
+    background: #FBF9FA;
+    padding:0 10px 10px;
+    position: relative;
+}
+.product-wrapper .sale{
+    text-align: center;
+    font-size: 15px;
+    color: #b60812;
+    border: 1px dashed #E72222;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 18px 0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+.product-wrapper .btn-favorite{
+    cursor: pointer;
+    position: absolute;
+    top: 33px;
+    right: 24px;
+}
+.product-wrapper .img-box{
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.product-wrapper .sale-active{
+    color: #956D84;
+    background: rgba(157, 117, 140, 0.39);
+    position: absolute;
+    right: 14px;
+    bottom: 27px;
+    height: 56px;
+    width: 56px;
+    display: block;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 50%;
+}
+.product-wrapper .add-to-cart{
+    background: #956D84;
+    box-shadow: inset 0px 5px 5px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto 15px;
+    width: 280px;
+    cursor: pointer;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.product-wrapper .fast-order{
+    color: #828282;
+    display:table;
+    margin:0px auto;
+    margin-bottom:15px;
+    border-bottom:1px solid #956D84;
+    cursor:pointer;
+}
+.product-wrapper .wrap-btns{
+    clear:both;
+    padding-top:10px;
+}
+.product-wrapper .img-box img{
+    width:100%;
+}
+.product-wrapper .name-prod{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    max-width: 50%;
+    color:#626262;
+}
+.product-wrapper .price{
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.product-wrapper .old-price{
+    color: #BDBDBD;
+    font-weight: 100;
+}
+.product-wrapper .new-price{
+    color: #956D84;
+    font-weight: 600;
+}
+.product-wrapper .wrap-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 23px 15px;
+}
+.section-name{
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
